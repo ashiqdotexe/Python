@@ -1,0 +1,10 @@
+str=("HM Ashiqur Rahman")
+print(str[::])
+print(str[::2])
+print(str[0:2])
+print(str.isalnum())#Is alpha neumeric=False(No space)
+print(str.endswith("Rahman"))
+str1=str.lower()
+print(str1.count("a"))#count how many 'a' out there
+print(str.replace("HM" , "SM"))
+print((str.capitalize()))
